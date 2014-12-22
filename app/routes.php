@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', "HomeController@login");
+Route::get('/login', "HomeController@login");
+Route::post('verify', array('before' => 'csrf', 'uses' => 'HomeController@validate'));
+Route::get('edit', array('before' => 'auth', 'uses' => function(){return 'ok';}));
+Route::get('/test', "HomeController@test");

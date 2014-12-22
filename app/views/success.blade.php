@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: ASUS-PC
- * Date: 2014/12/22
- * Time: 18:50
- */
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+成功!
+<script>
+    setTimeout(function(){
+        window.location.href="edit";
+    }, 1000);
+</script>
+</body>
+</html>
