@@ -17,7 +17,7 @@ class HomeController extends BaseController {
 
 	function login(){
 		$_token = csrf_token();
-		return View::make('login')->with('_token', $_token);
+		return View::make('admin.login')->with('_token', $_token);
 	}
 
 	public function validate()
@@ -60,7 +60,7 @@ class HomeController extends BaseController {
 		$data = Input::only('activity_name');
 		$data['time'] = time();
 		if(Content::create($data))
-			return View::make('success');
+			return View::make('admin/success');
 		else
 			return Response::make('出了点错误', 403);
 	}
