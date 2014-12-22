@@ -1,4 +1,4 @@
-//影像力换一换
+//切换图片
 var getyxl = jQuery('#picLBxxl li').eq(0).width();
 (function($){
     var arartta = window['arartta'] = function(o){
