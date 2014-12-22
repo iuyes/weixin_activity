@@ -11,7 +11,12 @@
 |
 */
 
+Route::get('/login', "HomeController@login");
+Route::post('verify', array('before' => 'csrf', 'uses' => 'HomeController@validate'));
+Route::get('edit', array('before' => 'auth', 'uses' => function(){return 'ok';}));
+Route::get('/test', "HomeController@test");
+
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('webchat/index');
 });
