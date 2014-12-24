@@ -65,7 +65,7 @@ class HomeController extends BaseController {
 	public function delete()
 	{
 		$id = Input::only('id');
-		if(Content::destroy($id))
+		if(Content::destroy($id['id']))
 			return View::make('admin/success');
 		else
 			return Response::make('出了点错误', 403);
@@ -76,21 +76,36 @@ class HomeController extends BaseController {
 		$id = Input::only('id');
 		$pic = Input::file('pic');
 		$erweima = Input::file('erweima');
-		$pic_name = 'pic'.time();
-		$erweima_name = storage_path().'/erweima'.time();
-		$pic->move(storage_path().'/'.$pic_name, $pic_name);
-		$erweima->move(storage_path().'/'.$erweima_name, $pic_name);
-		$update = Content::find($id);
-		$pic_path = storage_path().'/'.$pic_name;
-		$erweima_path = storage_path().'/'.$erweima_name;
+
+		$pic_mime = $pic->getClientOriginalExtension();
+		$erweima_mime = $erweima->getClientOriginalExtension();
+
+		$time = time();
+		$pic_name = $time.'.'.$pic_mime;
+		$erweima_name = $time.'.'.$erweima_mime;
+
+		$pic->move('pic', $pic_name);
+		$erweima->move('erweima', $erweima_name);
+
+		$update = Content::find($id['id']);
+		$pic_path = $pic_name;
+		$erweima_path = $erweima_name;
 		$update->pic = $pic_path;
 		$update->erweima = $erweima_path;
+		$update->save();
 		return View::make('admin/success');
+	}
+
+	public function getInfo()
+	{
+		$data = Content::all();
+		return View::make('webchat.index')->with('data', $data);
 	}
 
 	public function test()
 	{
 		return Hash::make('303547');
 	}
+
 
 }

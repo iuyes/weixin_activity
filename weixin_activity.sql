@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2014-12-22 20:54:13
+Date: 2014-12-24 17:03:48
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -22,16 +22,21 @@ DROP TABLE IF EXISTS `content`;
 CREATE TABLE `content` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `activity_name` varchar(255) DEFAULT NULL,
-  `pic` varchar(255) NOT NULL,
-  `erweima` varchar(255) NOT NULL,
+  `pic` varchar(255) DEFAULT NULL,
+  `erweima` varchar(255) DEFAULT NULL,
   `activity_intro` varchar(255) DEFAULT NULL,
-  `time` int(11) NOT NULL,
+  `time` int(11) DEFAULT NULL,
+  `link` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of content
 -- ----------------------------
+INSERT INTO `content` VALUES ('7', '123', '1419409776.PNG', '1419409776.PNG', '321', '1419407763', null);
+INSERT INTO `content` VALUES ('8', 'qwe', null, null, 'qweadsf', '1419409440', null);
+INSERT INTO `content` VALUES ('9', 'safd', '1419409687.jpg', '1419409687.jpg', 'faasdf', '1419409473', 'asdfwaef');
+INSERT INTO `content` VALUES ('10', '2qf', '1419409802.PNG', '1419409802.PNG', '2qfc', '1419409790', 'f3w');
 
 -- ----------------------------
 -- Table structure for user
