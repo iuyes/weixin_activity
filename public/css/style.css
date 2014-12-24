@@ -19,15 +19,15 @@ p{word-wrap:break-word}
 .cf{*zoom:1}
 .fl,.layout .fl,.chief{float:left;display:inline}
 .fr,.layout .fr,.extra{float:right;display:inline}
-h1,h2,h3,dt{font-family:'Î¢ÈíÑÅºÚ','ºÚÌå';font-weight:100;font-size:16px;}
+h1,h2,h3,dt{font-family:'微软雅黑','宋体';font-weight:100;font-size:16px;}
 
 /* layout */
 .style0 .hd .changeBnt i,.picLB .ftBox .name b{background:url(../img/bntIcon.png) no-repeat ;}
 .layout{margin:40px auto 0 auto;width:1000px;}
 .style0 .hd{height:48px;line-height:36px;position:relative; }
 .style0 .border{display:block;overflow:hidden;height:0px;position:absolute;width:1000px;border-top:1px solid #d3d9df;border-bottom:1px solid #fcfcfc;top:18px;left:0 }
-.style0 .hd h2{position:absolute;background:#f7f7f7;display:inline-block;*display:inline;zoom:1;padding:0 22px;z-index:100;font-size:18px;left:50%;margin-left:-55px;}
-.style0 .hd .changeBnt{width:67px;height:23px;background:#fff;border:1px solid #d8dcdd;position:absolute;top:7px;right:0px;text-indent:25px;line-height:23px;}
+.style0 .hd h2{position:absolute;background:#f7f7f7;display:inline-block;*display:inline;zoom:1;padding:0 22px;z-index:100;font-size:18px;left:44%;margin-left:-55px;}
+.style0 .hd .changeBnt{width:80px;height:80px;background:#fff;border:1px solid #d8dcdd;position:absolute;top:-23px;right:0px;text-indent:25px;line-height:23px;}
 .style0 .hd .changeBnt i{width:18px;height:18px;position:absolute;left:4px;top:2px;background-position:-202px 1px;}
 .style0 .hd .changeBnt:hover{background:#e55656;border:1px solid #e55656;color:#fff;text-decoration:none;}
 .style0 .hd .changeBnt:hover i{background-position:-202px -26px ;}
@@ -41,8 +41,8 @@ h1,h2,h3,dt{font-family:'Î¢ÈíÑÅºÚ','ºÚÌå';font-weight:100;font-size:
 .picLB .ftBox{overflow:hidden;zoom:1;}
 .picLB .ftBox .name{float:left;display:inline;height:70px;border-right:1px solid #e5e5e5;margin-right:10px;}
 .picLB .ftBox .name b{width:60px;height:45px;background-position:-87px -5px ;display:block;margin:15px 0 0 10px;text-indent:-999em;}
-.picLB .ftBox .tit{font-family:'Î¢ÈíÑÅºÚ','ºÚÌå';font-size:14px;line-height:22px;margin-top:10px;}
-.picLB .ftBox .text{color:#929292;font-family:'Î¢ÈíÑÅºÚ','ºÚÌå';font-size:12px;margin-top:5px;padding-right:10px;}
+.picLB .ftBox .tit{font-family:'微软雅黑','宋体';font-size:14px;line-height:22px;margin-top:10px;}
+.picLB .ftBox .text{color:#929292;font-family:'微软雅黑','宋体';font-size:12px;margin-top:5px;padding-right:10px;}
 .picLB .jilu .ftBox .name b{background-position:-83px -70px;}
 .picLB .tuhua .ftBox .name b{background-position:-83px -135px;}
 .picLB .today .ftBox .name b{background-position:-80px -320px;width:142px;}
@@ -55,3 +55,4 @@ h1,h2,h3,dt{font-family:'Î¢ÈíÑÅºÚ','ºÚÌå';font-weight:100;font-size:
 .picLB .ftBox .qr img.fl{margin-right:12px;}
 .picLB .ftBox .qr .text{margin-top:15px;}
 .picLB .today .ftBox .qr{width:173px;}
+.er{width: 210px;	height: 210px;margin: auto;}
