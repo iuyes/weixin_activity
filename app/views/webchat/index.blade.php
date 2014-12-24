@@ -20,28 +20,28 @@
 		<ul class="picLB" id="picLBxxl">
 			<li>
 				<dl class="picDl huozhe">
-					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/114140276.jpg" alt=""/></a>
+					<dd id="tupian">
+						<a href="javascript:;" class="pic sb1" style="display:block"><img src="img/114140276.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
 							<div class="text">父亲背上的求职路。</div>
 							<div class="qr">
 								<i class="icon-arr"></i>
-								<img class="fl" src="img/96043874.jpg" alt="活着微信" />
+								<img class="fl " src="img/96043874.jpg" alt="活着微信"/>
 								<div class="text">扫二维码 <br />收听《活着》微信</div>
 							</div>
 						</div>
 					</dd>
-					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/113842142.jpg" alt=""/></a>
+					<dd id="erweima">
+						<a href="javascript:;" class="pic sb2" style="display:block"><img class="er" src="img/96043874.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>
 							<div class="text">即使贫困，七个孩子也都要养</div>
 							<div class="qr">
 								<i class="icon-arr"></i>
-								<img class="fl" src="img/96043874.jpg" alt="活着微信" />
+								<img class="fl" src="img/96043874.jpg" alt="活着微信"/>
 								<div class="text">扫二维码 <br />收听《活着》微信</div>
 							</div>
 						</div>
@@ -51,7 +51,7 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/113584996.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb1" id="tupian"><img src="img/113584996.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
@@ -64,7 +64,7 @@
 						</div>
 					</dd>
 					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/113685865.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb2" id="erweima"><img src="img/113685865.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>
@@ -81,7 +81,7 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/113064706.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb1" id="tupian"><img src="img/113064706.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
@@ -94,7 +94,7 @@
 						</div>
 					</dd>
 					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/113366099.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb2" id="erweima"><img src="img/113366099.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>
@@ -111,7 +111,7 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/113981312.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb1" id="tupian"><img src="img/113981312.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
@@ -124,7 +124,7 @@
 						</div>
 					</dd>
 					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/114011457.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb2" id="erweima"><img src="img/114011457.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>
@@ -141,7 +141,7 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/114097562.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb1" id="tupian"><img src="img/114097562.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
@@ -154,7 +154,7 @@
 						</div>
 					</dd>
 					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/114099210.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb2" id="erweima"><img src="img/114099210.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>
@@ -171,7 +171,7 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd>
-						<a href="javascript:;" class="pic" id="tupian"><img src="img/114159822.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb1" id="tupian"><img src="img/114159822.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="javascript:;">父背如山</a></div>
@@ -184,7 +184,7 @@
 						</div>
 					</dd>
 					<dd>
-						<a href="javascript:;" class="pic" id="erweima"><img src="img/114172169.jpg" alt=""/></a>
+						<a href="javascript:;" class="pic sb2" id="erweima"><img src="img/114172169.jpg" alt=""/></a>
 						<div class="ftBox">
 							<h3 class="name"><b><a href="http://hongyan.cqupt.edu.cn/">活着</a></b></h3>
 							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">七娃之家</a></div>

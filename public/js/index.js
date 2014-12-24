@@ -83,11 +83,13 @@ var getyxl = jQuery('#picLBxxl li').eq(0).width();
 
 //悬停图片换为二维码
 
-$("#picLBxxl #tupian").bind("mouseover", function() {
+$(".sb1").bind("mouseenter", function() {
     var par = $(this).parent().parent();
-    par.animate({left: -(1 * getyxl) + "px"}, {easing:"easeInOutExpo"}, 1500, function(){});
+    par.animate({left: -(1 * getyxl) + "px"}, {easing:"easeInOutExpo"}, 1000, function(){});
 })
-$("#picLBxxl #erweima").bind("mouseout", function(){
+
+$(".sb2").bind("mouseleave", function(){
     var par = $(this).parent().parent();
-    par.animate({left: (0 * getyxl) + "px"}, {easing:"easeInOutExpo"}, 1500, function(){});
+    par.animate({left: (0 * getyxl) + "px"}, {easing:"easeInOutExpo"}, 1000, function(){});
+
 })
