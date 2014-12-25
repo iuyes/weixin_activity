@@ -3,12 +3,14 @@
 class HomeController extends BaseController {
 	private $rules;
 
+	//渲染登陆页面
 	function login()
 	{
 		$_token = csrf_token();
 		return View::make('admin.login')->with('_token', $_token);
 	}
 
+	//验证登陆
 	public function validate()
 	{
 		$this->rules = array(
@@ -44,12 +46,14 @@ class HomeController extends BaseController {
 
 	}
 
+	//渲染后台编辑页面
 	public function edit()
 	{
 		$data = Content::all();
 		return View::make('admin.edit')->with('data', $data);
 	}
 
+	//添加新活动
 	public function insert()
 	{
 		$data = Input::all();
@@ -62,6 +66,7 @@ class HomeController extends BaseController {
 			return Response::make('出了点错误', 403);
 	}
 
+	//删除活动
 	public function delete()
 	{
 		$id = Input::only('id');
@@ -71,6 +76,7 @@ class HomeController extends BaseController {
 			return Response::make('出了点错误', 403);
 	}
 
+	//给活动插入/更新图片
 	public function update()
 	{
 		$id = Input::only('id');
@@ -96,16 +102,17 @@ class HomeController extends BaseController {
 		return View::make('admin/success');
 	}
 
+	//渲染活动展示页
 	public function getInfo()
 	{
 		$data = Content::all();
 		return View::make('webchat.index')->with('data', $data);
 	}
 
-	public function test()
-	{
-		return Hash::make('303547');
-	}
+	// public function test()
+	// {
+	// 	return Hash::make('303547');
+	// }
 
 
 }
