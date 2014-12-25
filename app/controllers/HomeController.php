@@ -104,7 +104,7 @@ class HomeController extends BaseController {
 
 	public function test()
 	{
-		return Hash::make('303547');
+		return Hash::make('DBboolean93');
 	}
 
 
