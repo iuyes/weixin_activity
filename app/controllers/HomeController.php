@@ -108,11 +108,7 @@ class HomeController extends BaseController {
 		$data = Content::all();
 		return View::make('webchat.index')->with('data', $data);
 	}
-
-	// public function test()
-	// {
-	// 	return Hash::make('303547');
-	// }
+	
 
 
 }
