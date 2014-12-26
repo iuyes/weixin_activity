@@ -18,4 +18,4 @@ Route::post('upload', array('before' => 'auth', 'uses' => 'HomeController@update
 Route::post('insert', array('before' => 'auth', 'uses' => 'HomeController@insert'));
 Route::post('delete', array('before' => 'auth', 'uses' => 'HomeController@delete'));
 Route::get('/', "HomeController@getInfo");
-Route::get('test', "HomeController@test");
+Route::get('test', function(){ return View::make('admin.edit1');});
