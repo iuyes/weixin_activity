@@ -10,6 +10,7 @@
     </style>
 @stop
 @section('body')
+
     <div class="row-fluid">
         <div class="span12" style="height: 100px">请先添加活动名称及各种数据后再上传图片, 图片最好为高210px和宽330px或等比例的图片</div>
 <div class="container-fluid">
