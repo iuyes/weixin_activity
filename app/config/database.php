@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'weixin_activity',
 			'username'  => 'root',
-			'password'  => '303547',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_general_ci',
 			'prefix'    => '',
