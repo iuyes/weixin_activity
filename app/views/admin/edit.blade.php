@@ -31,7 +31,7 @@
                 <div class="control-group">
                     <label class="control-label" for="inputPassword">添加活动链接</label>
                     <div class="controls">
-                        <input type="text" name="link" style="height: inherit"/>
+                        <input type="text" name="link" style="height: inherit" placeholder="http://www.baidu.com"/>
                     </div>
                 </div>
                 <div class="control-group">
