@@ -12,7 +12,7 @@
 @section('body')
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="span12">请先添加活动名称及各种数据后再上传图片, 图片最好为高210px和宽330px或等比例的图片</div>
+            <div class="span12">请先添加活动名称及各种数据)后再上传图片, 图片最好为高210px和宽330px或等比例的图片</div>
         </div>
         <div class="row-fluid">
             <div class="span4" >
@@ -70,7 +70,7 @@
                     <div class="control-group">
                         <label class="control-label" for="inputPassword">添加活动链接</label>
                         <div class="controls">
-                            <input id="inputPassword" type="text" name="link" style="height: inherit"/>
+                            <input id="inputPassword" type="text" name="link" style="height: inherit" placeholder="http://xxxxxxx" />
                         </div>
                     </div>
                     <div class="control-group">

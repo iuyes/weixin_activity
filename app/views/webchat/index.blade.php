@@ -22,16 +22,16 @@
 			<li>
 				<dl class="picDl huozhe">
 					<dd id="tupian">
-						<a href="" class="pic sb1" style="display:block"><img src="{{'pic/'.$v['pic']}}" alt="" height="210px" width="330px"/></a>
+						<a href="{{$v['link']}}" class="pic sb1" style="display:block"><img src="{{'pic/'.$v['pic']}}" alt="" height="210px" width="330px"/></a>
 						<div class="ftBox">
-							<div class="tit"><a href="javascript:;">{{$v['activity_name']}}</a></div>
+							<div class="tit"><a href="{{$v['link']}}">{{$v['activity_name']}}</a></div>
 							<div class="text">{{$v['activity_intro']}}</div>
 						</div>
 					</dd>
 					<dd id="erweima">
-						<a href="" class="pic sb2" style="display:block"><img class="er" src="{{'erweima/'.$v['erweima']}}" alt=""/></a>
+						<a href="{{$v['link']}}" class="pic sb2" style="display:block"><img class="er" src="{{'erweima/'.$v['erweima']}}" alt=""/></a>
 						<div class="ftBox">
-							<div class="tit"><a href="http://hongyan.cqupt.edu.cn/">{{$v['activity_name']}}</a></div>
+							<div class="tit"><a href="{{$v['link']}}">{{$v['activity_name']}}</a></div>
 							<div class="text">{{$v['activity_intro']}}</div>
 						</div>
 					</dd>
